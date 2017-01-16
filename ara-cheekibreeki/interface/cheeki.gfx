@@ -1,0 +1,13 @@
+spriteTypes = {
+
+  spriteType = {
+    name = "GFX_trait_cheeki_gonpik"
+    texturefile = "gfx/interface/trait_commando.dds"
+  }
+
+  spriteType = {
+    name = "GFX_trait_cheeki_tracksuit"
+    texturefile = "gfx/interface/trait_defensive_doctrine.dds"
+  }
+
+}

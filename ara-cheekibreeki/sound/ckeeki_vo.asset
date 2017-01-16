@@ -1,0 +1,151 @@
+##########
+
+soundeffect =
+{
+    name = "SOV_infantry_idle"
+    sounds = {
+        sound = ru_Idle_001
+		sound = ru_Idle_001
+		sound = ru_Idle_001
+		sound = ru_Idle_001
+		sound = ru_Idle_002
+		sound = ru_Idle_003
+		sound = ru_Idle_004
+		sound = ru_Idle_005
+		sound = ru_Idle_006
+		sound = ru_Idle_007
+		sound = ru_Idle_008
+		sound = ru_Idle_009
+		sound = ru_Idle_010
+		sound = ru_Idle_011
+		sound = ru_Idle_012
+		sound = ru_Idle_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SOV_infantry_neutral_combat"
+    sounds = {
+				sound = ru_Neutral_001
+				sound = ru_Neutral_002
+				sound = ru_Neutral_003
+				sound = ru_Neutral_004
+				sound = ru_Neutral_005
+				sound = ru_Neutral_006
+				sound = ru_Neutral_007
+				sound = ru_Neutral_008
+				sound = ru_Neutral_009
+				sound = ru_Neutral_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SOV_infantry_positive_combat"
+    sounds = {
+				sound = ru_Positive_001
+				sound = ru_Positive_002
+				sound = ru_Positive_003
+				sound = ru_Positive_004
+				sound = ru_Positive_005
+				sound = ru_Positive_006
+				sound = ru_Positive_007
+				sound = ru_Positive_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SOV_infantry_retreat"
+    sounds = {
+				sound = ru_Retreat_001
+				sound = ru_Retreat_002
+				sound = ru_Retreat_003
+				sound = ru_Retreat_004
+				sound = ru_Retreat_005
+				sound = ru_Retreat_006
+				sound = ru_Retreat_007
+				sound = ru_Retreat_008
+				sound = ru_Retreat_009
+				sound = ru_Retreat_010
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SOV_infantry_move_out"
+    sounds = {
+        sound = ru_Positive_001
+		sound = ru_Neutral_010
+		sound = ru_Positive_002
+		sound = ru_Positive_003
+		sound = ru_Positive_006
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+##########
+
+############## AUDIO ASSETS
+
+sound = { name = "ru_Idle_001" file = "sov/ru_Idle_001.wav" volume = 2.7 }
+sound = { name = "ru_Idle_002" file = "sov/ru_Idle_002.wav" volume = 2.7 }
+sound = { name = "ru_Idle_003" file = "sov/ru_Idle_003.wav" volume = 2.7 }
+sound = { name = "ru_Idle_004" file = "sov/ru_Idle_004.wav" volume = 2.7 }
+sound = { name = "ru_Idle_005" file = "sov/ru_Idle_005.wav" volume = 2.7 }
+sound = { name = "ru_Idle_006" file = "sov/ru_Idle_006.wav" volume = 2.7 }
+sound = { name = "ru_Idle_007" file = "sov/ru_Idle_007.wav" volume = 2.7 }
+sound = { name = "ru_Idle_008" file = "sov/ru_Idle_008.wav" volume = 2.7 }
+sound = { name = "ru_Idle_009" file = "sov/ru_Idle_009.wav" volume = 2.7 }
+sound = { name = "ru_Idle_010" file = "sov/ru_Idle_010.wav" volume = 2.7 }
+sound = { name = "ru_Idle_011" file = "sov/ru_Idle_011.wav" volume = 2.7 }
+sound = { name = "ru_Idle_012" file = "sov/ru_Idle_012.wav" volume = 2.7 }
+sound = { name = "ru_Idle_013" file = "sov/ru_Idle_013.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_001" file = "sov/ru_Neutral_001.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_002" file = "sov/ru_Neutral_002.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_003" file = "sov/ru_Neutral_003.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_004" file = "sov/ru_Neutral_004.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_005" file = "sov/ru_Neutral_005.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_006" file = "sov/ru_Neutral_006.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_007" file = "sov/ru_Neutral_007.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_008" file = "sov/ru_Neutral_008.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_009" file = "sov/ru_Neutral_009.wav" volume = 2.7 }
+sound = { name = "ru_Neutral_010" file = "sov/ru_Neutral_010.wav" volume = 2.7 }
+sound = { name = "ru_Positive_001" file = "sov/ru_Positive_001.wav" volume = 2.7 }
+sound = { name = "ru_Positive_002" file = "sov/ru_Positive_002.wav" volume = 2.7 }
+sound = { name = "ru_Positive_003" file = "sov/ru_Positive_003.wav" volume = 2.7 }
+sound = { name = "ru_Positive_004" file = "sov/ru_Positive_004.wav" volume = 2.7 }
+sound = { name = "ru_Positive_005" file = "sov/ru_Positive_005.wav" volume = 2.7 }
+sound = { name = "ru_Positive_006" file = "sov/ru_Positive_006.wav" volume = 2.7 }
+sound = { name = "ru_Positive_007" file = "sov/ru_Positive_007.wav" volume = 2.7 }
+sound = { name = "ru_Positive_008" file = "sov/ru_Positive_008.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_001" file = "sov/ru_Retreat_001.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_002" file = "sov/ru_Retreat_002.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_003" file = "sov/ru_Retreat_003.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_004" file = "sov/ru_Retreat_004.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_005" file = "sov/ru_Retreat_005.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_006" file = "sov/ru_Retreat_006.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_007" file = "sov/ru_Retreat_007.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_008" file = "sov/ru_Retreat_008.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_009" file = "sov/ru_Retreat_009.wav" volume = 2.7 }
+sound = { name = "ru_Retreat_010" file = "sov/ru_Retreat_010.wav" volume = 2.7 }

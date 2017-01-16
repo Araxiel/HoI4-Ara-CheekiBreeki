@@ -1,0 +1,55 @@
+
+music = {
+	song = "bandit_radio"
+
+	chance = {
+		factor = 7
+		modifier = {
+			factor = 1
+			has_government = communism
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = SOV
+					tag = UKR
+				}
+			}
+		}
+	}
+}
+
+music = {
+	song = "remove_kebab"
+
+	chance = {
+		factor = 3
+		modifier = {
+			factor = 0.5
+			has_government = communism
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = SOV
+			}
+		}
+		modifier = {
+			factor = 8
+			tag = SER
+		}
+	}
+}
+
+music = {
+	song = "serbia_stronk"
+
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 10
+			tag = SER
+		}
+	}
+}

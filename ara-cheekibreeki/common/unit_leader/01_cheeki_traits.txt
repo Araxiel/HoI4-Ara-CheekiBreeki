@@ -1,0 +1,31 @@
+leader_traits = {
+
+  cheeki_gonpik = {
+    type = corps_commander
+    allowed = {
+      always = no # not gainable
+    }
+    modifier = {
+      out_of_supply_factor = -0.5
+    }
+
+    ai_will_do = {
+      factor = 1
+    }
+  }
+
+  cheeki_tracksuit = {
+    type = corps_commander
+    allowed = {
+      always = no # not gainable
+    }
+    modifier = {
+      defence = 0.1
+    }
+
+    ai_will_do = {
+      factor = 1
+    }
+  }
+
+}
