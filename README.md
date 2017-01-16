@@ -19,4 +19,4 @@ The initial answer for that is no, this mod is a one-man project. If someone rea
 ## Can I modify this mod/use the code?
 Well, I can't really stop anyone from doing that. It's also not really an issue, but if you genuinely take parts of this mod for yourself, give me some credit or simply message me; I don't mind helping and don't bite.
 
-[1]:https://github.com/Araxiel/HoI4-Ara-SpecTroops/issues/new
+[1]:https://github.com/Araxiel/HoI4-Ara-CheekiBreeki/issues/new
